@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+* {
+  background-color: #e8e8e4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#rest1 {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0.5%;
+  margin-left: 2%;
+}
+
+#rest2 {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0.5%;
+  margin-right: 2%;
+}
+
+.title {
+  margin-top: 0.5%;
+  text-align: center;
+  font-size: 150%;
+  background-color: #a8dadc;
+  position: fixed;
+  margin-left: 12%;
+  padding: 0.5% 20% 0.5% 20%;
+  color: #184e77;
+  font-weight: bold;
+  font-family: "Roboto", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#nav {
+  display: flex;
+}
+
+/* CONTENT */
+
+.content {
+  margin-top: 5.5%;
+  width: 50%;
+  margin-left: 2%;
+}
+
+table,
+th,
+td {
+  border: 0.5px solid black;
+  font-family: "Nunito", sans-serif;
+  border-collapse: collapse;
+  background-color: #f1faee;
+  text-align: center;
+  width: 400px;
+}
+
+td {
+  font-size: small;
+}
+
+th {
+  background-color: #d8f3dc;
+  font-size: smaller;
+}
+
+.sr {
+  width: 7%;
+}
+
+.tdataItem {
+  width: 30%;
+}
+
+.tdata {
+  width: 15%;
+}
+
+.tdataTotal {
+  width: 20%;
+}
+
+#quantNumber {
+  width: 50%;
+  border: 2px solid #0a9396;
+  background-color: #d8e2dc;
+}
+
+#firstTable {
+  margin: 1%;
+  margin-top: 6%;
+}
+
+#secondTable {
+  margin: 1%;
+  margin-top: 6%;
+}
+
+#thirdTable {
+  margin: 1%;
+  margin-top: 6%;
+  height: 40%;
+}
+
+#displayTables {
+  display: flex;
 }
