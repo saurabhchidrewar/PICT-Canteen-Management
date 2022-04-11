@@ -1,44 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 * {
-  background-color: #e8e8e4;
+  margin: 0;
 }
+
+/* body {
+  background-image: url("assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
 
 #rest1 {
   width: 50px;
-  height: 50px;
+  height: 48px;
   position: fixed;
   top: 0;
   left: 0;
-  margin: 0.5%;
-  margin-left: 2%;
+  margin: 0.4%;
 }
 
 #rest2 {
   width: 50px;
-  height: 50px;
+  height: 48px;
   position: fixed;
   top: 0;
   right: 0;
-  margin: 0.5%;
-  margin-right: 2%;
+  margin: 0.4%;
 }
 
 .title {
   margin-top: 0.5%;
   text-align: center;
   font-size: 150%;
-  background-color: #a8dadc;
   position: fixed;
   margin-left: 12%;
   padding: 0.5% 20% 0.5% 20%;
   color: #184e77;
   font-weight: bold;
-  font-family: "Roboto", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  color: #fff;
+  /* font-size: 92px; */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  color: #03045e;
+  display: inline-block;
+  border: 2px solid #006100;
+  border-radius: 10px;
+  background-color: #a8dadc;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 #nav {
   display: flex;
+  height: 55px;
 }
 
 /* CONTENT */
@@ -62,6 +83,7 @@ td {
 
 td {
   font-size: small;
+  text-align: left;
 }
 
 th {
@@ -93,20 +115,24 @@ th {
 
 #firstTable {
   margin: 1%;
-  margin-top: 6%;
 }
 
 #secondTable {
   margin: 1%;
-  margin-top: 6%;
 }
 
 #thirdTable {
   margin: 1%;
-  margin-top: 6%;
   height: 40%;
 }
 
 #displayTables {
+  margin-top: 0.5%;
   display: flex;
+}
+
+input {
+  width: 40px;
+  height: 20px;
+  padding: 0%;
 }

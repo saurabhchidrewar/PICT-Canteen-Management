@@ -3,20 +3,22 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Navbar from "./Navbar";
-import MenuList from './Table1/MenuList.js'
-import MenuList2 from './Table2/MenuList2.js'
-import MenuList3 from './Table3/MenuList3.js'
-
+import MenuList from "./Table1/MenuList.js";
+import MenuList2 from "./Table2/MenuList2.js";
+import MenuList3 from "./Table3/MenuList3.js";
+import BillMenu from "./BillMenu.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Navbar />
-    <div id="displayTables">
+    <MenuList />
+    {/* <div id="displayTables">
       <MenuList />
       <MenuList2 />
-      <MenuList3 />
-    </div>
+      <MenuList3></MenuList3>
+    </div> */}
+    {/* <BillMenu></BillMenu> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
